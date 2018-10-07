@@ -5,7 +5,7 @@
 # Indholdsfortegnelse  
 <!--ts-->
   * [Opgavebeskrivelse](#opgavebeskrivelse)  
-  * [Introduktion og valg af opgave](#Introduktion-og-valg-af-opgave)  
+  * [Introduktion og valg af opgave](#introduktion-og-valg-af-opgave)  
   * [Valg af databaser](#valg-af-databaser)  
       * [Relationel database](#relationel-database)  
       * [Graph database](#graph-database)  
