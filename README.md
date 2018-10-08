@@ -60,10 +60,27 @@ Her brokker den sig over en boolean der er kaldt "isCopy". Personlidt syntes jeg
 
 5. Avoid unused local variable such as 'currentinput'.
 
-
+Den brokker sig over en klasse som hedder NeuralInput som der laves et object af der bliver kaldt for "currentInput". Her kunne man i stedet for "currentInput" godt kalde objectet noget i stil med "neutralCurrentImput" eventuelt. 
 
 6. Avoid unused private fields such as 'QUEUE_NAME'.
+
+QUEUE_NAME er et rigtig dårligt navn, dette skal ændres til noget helt andet. 
+
 7. Avoid unused private methods such as 'difference(List,List)'.
+
+Metoder bliver aldrig brugt, hvis dette skal i produktion skal den fjernes, eller i hvert fald udkommenteres. 
+
+- De tre sidste er tre forskellige kommentere. Kommentare i kode, hvis gjort ordenlidt kan fungere rigtig godt. Men som det ses nedenfor, er det kommentare som bør fjernes på et tidspunkt. Hvis man kan undgå at skrive kommentare bør dette gøres. Brug hellere gode navne til klasser, metoder og variable. Man skal gerne kunne gennemskue koden uden at læse andet et dette. IMHO.
+
 8. TODO why not???
 9. TODO fix.
 10. TODO refactor with forms.
+
+# Opgave 2
+
+- You can again pick something from a project you have done yourself, or just pick something from the GraphQL sample.
+- The exercise is to locate a library call which takes up most of the overall execution time for a task.
+- If you do not have something of your own, I suggest you look into the the “find droid by name” test.
+- Notice, it calls `executor.execute(query).data - which is the thing we should see where its bottlenecks are hidden.`
+
+
