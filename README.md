@@ -44,12 +44,24 @@ EasyPMD returnere ikke "særlig mange" hævede pejefingere, men her vil jeg gå 
 
 1. Avoid using a branching statement as the last in loop.
 
-- Den her markere EasyPMD med rød, det vil sige at den skal man særligt være opmærksom på. Når jeg kigger på min koder kan jeg også godt se at loopet absolut ikke er nødvendigt. Det vil nemlig afslutte med det samme uanset hvad. Istedet ville det her nok give mest mening at bruge en if-statement, dette ville spare en masse tid, det er mere læsbar kode og det giver orverordnet også meget bedre mening.  
+Den her markere EasyPMD med rød, det vil sige at den skal man særligt være opmærksom på. Når jeg kigger på min koder kan jeg også godt se at loopet absolut ikke er nødvendigt. Det vil nemlig afslutte med det samme uanset hvad. Istedet ville det her nok give mest mening at bruge en if-statement, dette ville spare en masse tid, det er mere læsbar kode og det giver orverordnet også meget bedre mening.  
 
 2. Avoid unused method parameters such as 'evt'.
+
+Her siger EasyPMD at evt ikke er et godt nok navn til en property. Det er et "ActionEvent" der bliver kaldt for evt. Det ville her nok give mere mening at navngivet med "actionEvent". Dette fortæller at det er et Action-event og altså ikke bare et event. Man skal gerne kunne læse navne på variabler, metoder og klasser, og forstå koden. Dette er med til at koden er mere let-læsbar og nemmere at forstå. Skaber ikke forvirring i et større projekt. 
+
 3. These nested if statements could be combined.
+
+Her kan de to if-statements kombineres, ved brug af && eller || operatoren. 
+
 4. Avoid unused constructor parameters such as 'isCopy'.
+
+Her brokker den sig over en boolean der er kaldt "isCopy". Personlidt syntes jeg at isCopy er en god navngivning. "is" siger at det er en boolen, altså true eller false, og "Copy" beskriver at det har noget med at kopirer noget at gøre. Den syntes jeg personlidt ikke selv skal ændres. PMD er kun en hjælpende hånd mod god kode, den har ikke altid ret. 
+
 5. Avoid unused local variable such as 'currentinput'.
+
+
+
 6. Avoid unused private fields such as 'QUEUE_NAME'.
 7. Avoid unused private methods such as 'difference(List,List)'.
 8. TODO why not???
