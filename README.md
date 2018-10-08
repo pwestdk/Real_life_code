@@ -90,3 +90,5 @@ Til at løse denne opgave anvendes NetBeans IDE 8.2 Project Profiler. Jeg har va
 Jeg har i stedet valgt at kigge på følgende: 
 
 ![alt text](https://github.com/pwestdk/Real_life_code/blob/master/images/projectprofiler.png)
+
+Her ses en et kald som foretages for at oprette GUI'ens grafiske interface. Det er det eneste sted hvor jeg mener at det giver mening at bruge profileren i projektet. Som det ses er der hundredevis af niveauer til denne. Hastigheden her har noget at gøre med din processor-speed på din computer, så det kan derfor varierer meget. 
