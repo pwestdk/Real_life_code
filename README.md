@@ -35,4 +35,9 @@ Jeg har valgt at benytte mig at NetBeans IDE 8.2 tl at afprøve PMD værktøjet.
 
 ![alt text](https://github.com/pwestdk/Real_life_code/blob/master/images/pmd_plugin.png)
 
+Når jeg kører EasyPMD på mit projekt beskrevet ovenfor, får jeg følgende respons: 
+
+![alt text](https://github.com/pwestdk/Real_life_code/blob/master/images/pmd1.png)
+![alt text](https://github.com/pwestdk/Real_life_code/blob/master/images/pmd2.png)
+
 
