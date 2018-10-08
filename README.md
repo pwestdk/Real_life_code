@@ -43,6 +43,9 @@ Når jeg kører EasyPMD på mit projekt beskrevet ovenfor, får jeg følgende re
 EasyPMD returnere ikke "særlig mange" hævede pejefingere, men her vil jeg gå i dybden med 10 af dem:
 
 1. Avoid using a branching statement as the last in loop.
+
+- Den her markere EasyPMD med rød, det vil sige at den skal man særligt være opmærksom på. Når jeg kigger på min koder kan jeg også godt se at loopet absolut ikke er nødvendigt. Det vil nemlig afslutte med det samme uanset hvad. Istedet ville det her nok give mest mening at bruge en if-statement, dette ville spare en masse tid, det er mere læsbar kode og det giver orverordnet også meget bedre mening.  
+
 2. Avoid unused method parameters such as 'evt'.
 3. These nested if statements could be combined.
 4. Avoid unused constructor parameters such as 'isCopy'.
@@ -50,5 +53,5 @@ EasyPMD returnere ikke "særlig mange" hævede pejefingere, men her vil jeg gå 
 6. Avoid unused private fields such as 'QUEUE_NAME'.
 7. Avoid unused private methods such as 'difference(List,List)'.
 8. TODO why not???
-9. TODO fix
-10. TODO refactor with forms
+9. TODO fix.
+10. TODO refactor with forms.
