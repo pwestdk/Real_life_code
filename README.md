@@ -29,6 +29,9 @@ I denne opgave anvendes PMD på et "real life project". Projektet er et  system 
 
 ## Svar
 
-Answer here. 
+Først hvad er PMD, og hvorfor kan det anvendes effektivt? Officielt står PMD ikke for noget fast. Det har mange uofcielle navne. Mit ynglings er "Programming Mistake Detector". Dette navn giver en meget god indikation af hvad værktøjet kan anvendes til. Kort fortalt er PMD en static source code analyser, som kan anvendes til at "fejl" i kode. Det gør værktøjet ved brug af pre-defineret reglsæt som køres gennem ens kode, for så derefter at komme med en evaluering af koden. 
+
+Jeg har valgt at benytte mig at NetBeans IDE 8.2 tl at afprøve PMD værktøjet. Her installeres et plugin EasyPMD som ses nedenfor:
+
 
 
