@@ -81,6 +81,12 @@ Metoder bliver aldrig brugt, hvis dette skal i produktion skal den fjernes, elle
 - You can again pick something from a project you have done yourself, or just pick something from the GraphQL sample.
 - The exercise is to locate a library call which takes up most of the overall execution time for a task.
 - If you do not have something of your own, I suggest you look into the the “find droid by name” test.
-- Notice, it calls `executor.execute(query).data - which is the thing we should see where its bottlenecks are hidden.`
+- Notice, it calls `executor.execute(query).data` - which is the thing we should see where its bottlenecks are hidden.
 
+## Svar
 
+Til at løse denne opgave anvendes NetBeans IDE 8.2 Project Profiler. Jeg har valt at kigge på et af de kald som tager længst tid, nemlig hele 1,3 sekunder! Fordi systemet kører en GUI vil der være en metode der konstant tæller op, nemlig "Java2D Queue Flusher" som er med til at køre GUI'en, den kigger og andre som denne kigger jeg ikke på.
+
+Jeg har i stedet valgt at kigge på følgende: 
+
+![alt text](https://github.com/pwestdk/Real_life_code/blob/master/images/projectprofiler.png)
