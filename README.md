@@ -33,5 +33,6 @@ Først hvad er PMD, og hvorfor kan det anvendes effektivt? Officielt står PMD i
 
 Jeg har valgt at benytte mig at NetBeans IDE 8.2 tl at afprøve PMD værktøjet. Her installeres et plugin EasyPMD som ses nedenfor:
 
+![alt text](https://github.com/pwestdk/Real_life_code/blob/master/images/pmd_plugin.png)
 
 
