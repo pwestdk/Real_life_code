@@ -1,17 +1,15 @@
 # Performance testing 
 ##### Philip West Christiansen
-##### Efterår 2018, Til: Kasper Østerbye, Afleveret: 07/10/2018
+##### Efterår 2018, Til: Kasper Østerbye, Afleveret: 08/10/2018
 
 # Indholdsfortegnelse  
 <!--ts-->
   * [Opgavebeskrivelse](#opgavebeskrivelse)  
   * [Introduktion og valg af opgave](#introduktion-og-valg-af-opgave)  
-  * [Valg af databaser](#valg-af-databaser)  
-      * [Relationel database](#relationel-database)  
-      * [Graph database](#graph-database)  
-  * [Datamodellering i databaser](#datamodellering-i-databaser)  
-      * [PostgreSQL](#postgresql)
-      * [Neo4j](#neo4j)
+  * [Opgave 1](#opgave-1)
+      * [Svar](#svar)  
+  * [Opgave 2](#opgave-2)
+      * [Svar](#svar-1)  
 <!--ts-->
 
 
