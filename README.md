@@ -40,4 +40,15 @@ Når jeg kører EasyPMD på mit projekt beskrevet ovenfor, får jeg følgende re
 ![alt text](https://github.com/pwestdk/Real_life_code/blob/master/images/pmd1.png)
 ![alt text](https://github.com/pwestdk/Real_life_code/blob/master/images/pmd2.png)
 
+EasyPMD returnere ikke "særlig mange" hævede pejefingere, men her vil jeg gå i dybden med 10 af dem:
 
+1. Avoid using a branching statement as the last in loop.
+2. Avoid unused method parameters such as 'evt'.
+3. These nested if statements could be combined.
+4. Avoid unused constructor parameters such as 'isCopy'.
+5. Avoid unused local variable such as 'currentinput'.
+6. Avoid unused private fields such as 'QUEUE_NAME'.
+7. Avoid unused private methods such as 'difference(List,List)'.
+8. TODO why not???
+9. TODO fix
+10. TODO refactor with forms
